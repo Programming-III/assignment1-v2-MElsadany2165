@@ -13,14 +13,12 @@ private:
     string major;
 
 public:
-void display(){
-    cout << "Student Info: " << endl;
-    cout << "Year Level: "<< yearLevel << endl;
-    cout << "Major: " << major << endl;
-}
-
    
 };
+
+
+
+
 
 
 #endif
