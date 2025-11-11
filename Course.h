@@ -17,14 +17,20 @@ private:
 
 public:
 void addStudent(const Student& s);
-void displayCourseInfo(){
-    cout << "Course: " << courseCode << "-" << courseName << endl;;
-    cout << "Max Students: " << maxStudents << endl;
-    cout << "Current Enrolled: " << currentStudents << endl;
-}
+void displayCourseInfo() const;
 
 
 };
+
+
+
+
+
+
+
+
+
+
 
 
 #endif
