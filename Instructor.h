@@ -4,7 +4,7 @@
 #include <string>
 using namespace std;
 
-#include "Person.h
+#include "Person.h"
 
 class Instructor : public Person {
 private:
@@ -13,12 +13,6 @@ private:
 
 public:
 
-    string display()  {
-        cout << "Instructor Info: " << endl;
-        cout << "Name: " << display() << endl;
-        cout << "Department: " << department << endl;
-        cout << "Experience: " << experienceYears << " years" << endl;
-    }
 };
 
 #endif
