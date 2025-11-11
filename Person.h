@@ -11,14 +11,8 @@ private:
     int id;
 
 public:
-void display(){
 
-    cout << "Person's Name: "<< name << endl;
-    cout << "Person's ID: " << id << endl;
-}
 };
-
-
 
 
 
